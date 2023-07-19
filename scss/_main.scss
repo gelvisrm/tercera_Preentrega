@@ -82,12 +82,20 @@ justify-self:center;
 }
 
 /*Arreglos pagina Equipo*/
-.imagenEquipo img{
-    height: 50px;
-    border-radius: 100px 100px 100px 100px;
-    border: 3px solid #C7FF5A;
-    border-bottom: 2px solid #C7FF5A;
+
+.imagenEquipo{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+        img{
+        height: 80px;
+        border-radius: 100px 100px 100px 100px;
+        border: 3px solid #C7FF5A;
+        border-bottom: 2px solid #C7FF5A;
+        }
 }
+
+
 
 .contactoDescripcion{
     margin-top: 100px;
@@ -100,8 +108,6 @@ justify-self:center;
 }
 
 /*Pagina Unirme*/
-
-
 
 #botonColabora img{
     height: 20px;
