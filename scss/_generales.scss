@@ -1,5 +1,7 @@
 
 body{
-    background-color: #04021E;
+    background-color: $primary-background;
     color: white;
+    background-image: url("../images/secondaybg.png");
+    background-repeat: no-repeat;   
 }

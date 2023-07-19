@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-/* Ingreso de font*/
+/*VARIABLES*/ /* Ingreso de font*/
 body {
   font-family: "Rubik", sans-serif;
 }
@@ -14,6 +14,8 @@ body {
 body {
   background-color: #04021E;
   color: white;
+  background-image: url("../images/secondaybg.png");
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -96,7 +98,7 @@ header nav ul li a {
 
 hr {
   height: 3px;
-  background-color: #5a5879;
+  background-color: #B180C2;
   width: 100%;
 }
 
@@ -128,18 +130,17 @@ hr {
 }
 
 /*Arreglos pagina Equipo*/
-.imagenEquipo {
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 25px;
-}
-.imagenEquipo img {
-  height: 80px;
-  border-radius: 100px 100px 100px 100px;
-  border: 3px solid #C7FF5A;
-  border-bottom: 2px solid #C7FF5A;
-}
-
+/*.imagenEquipo{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+        img{
+        height: 80px;
+        border-radius: 100px 100px 100px 100px;
+        border: 3px solid #C7FF5A;
+        border-bottom: 2px solid #C7FF5A;
+        }
+}*/
 .contactoDescripcion {
   margin-top: 100px;
   justify-content: center;
@@ -155,8 +156,8 @@ hr {
 }
 
 #fondoColabora {
-  background-color: aquamarine;
-  color: #101B3A;
+  background-color: #71D6B9;
+  color: #04021E;
   text-align: justify;
   border-radius: 40px 0 0 20px;
 }
@@ -201,15 +202,19 @@ hr {
 
 /*Footer*/
 .footer {
+  border-radius: 30px 30px 0 0;
   margin-top: 200px;
+  background: rgb(4, 2, 30);
+  background: linear-gradient(0deg, rgb(4, 2, 30) 86%, rgb(90, 88, 121) 99%);
 }
 
 .copy {
-  color: #7976A8;
+  color: #211F41;
   margin: 0 0 20px 30px;
 }
 
 .redesFooter img {
+  margin-top: 50px;
   height: 50px;
 }
 
@@ -218,6 +223,7 @@ hr {
 }
 
 .banderaFooter {
+  margin-top: 50px;
   text-align: right;
 }
 

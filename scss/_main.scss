@@ -29,10 +29,10 @@
 
 /*Card topicos*/
 .lineas{
-    color: #7976A8;
+    color: $purple-form;
 }
 .h3Lineas{
-    color:#7976A8;
+    color:$purple-form;
   text-align: center;
 
 }
@@ -45,7 +45,7 @@ margin-top: 15px
 
 hr {
 height: 3px;
-background-color: #5a5879;
+background-color: $purplelight-brand;
 width: 100%;
 }
 
@@ -83,7 +83,7 @@ justify-self:center;
 
 /*Arreglos pagina Equipo*/
 
-.imagenEquipo{
+/*.imagenEquipo{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 25px;
@@ -93,7 +93,7 @@ justify-self:center;
         border: 3px solid #C7FF5A;
         border-bottom: 2px solid #C7FF5A;
         }
-}
+}*/
 
 
 
@@ -114,8 +114,8 @@ justify-self:center;
 }
 
 #fondoColabora{
-    background-color:aquamarine;
-    color:#101B3A;
+    background-color:$green-brand;
+    color:$primary-background;
     text-align: justify;
     border-radius: 40px 0 0 20px;
 }
@@ -131,7 +131,7 @@ justify-self:center;
 /*Pagina contacto*/
 
 .inputContacto{
-    border: 2px solid #7976A8;
+    border: 2px solid $purple-form;
     border-radius: 20px;
     width: 100%;
     height: 100%;
@@ -140,7 +140,7 @@ justify-self:center;
 }
 
 #mensaje{
-    border: 2px solid #7976A8;
+    border: 2px solid $purple-form;
     border-radius: 20px;
     width: 100%;
     height: 100%;
@@ -150,7 +150,7 @@ justify-self:center;
 }
 
 #botonContacto{
-    color: #7976A8;
+    color: $purple-form;
     margin-top: 10px;
     border-radius: 24px;
 }
