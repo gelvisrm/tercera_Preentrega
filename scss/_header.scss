@@ -1,0 +1,35 @@
+.navbar{
+    margin-top: 40px;
+}
+header nav{
+    display: flex;
+    color: white;
+    ul{
+        display: flex;
+        color: white;
+        li {
+            display: flex;
+            color: white;
+            a {
+                display: flex;
+                color: white;
+                align-items: center;
+            }
+        }
+    }
+}
+
+#navbarNav{
+    justify-content: space-between;
+
+}
+/*Tamaño de icono de redes sociales en el nav bar*/
+.fab{
+    
+    height: 30px;
+    
+}
+#botonSuscribete{
+    border-radius: 24px;
+}
+
