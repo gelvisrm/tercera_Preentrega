@@ -62,10 +62,15 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="../images/ennuestropais.png" alt="logo bandera">
                     <br>
-                    <img src="../images/lema.png" alt="lema pagina">
+                    <h1 id="tituloPrincipal">Descubriendo el mundo dentro de <span class="resaltartext">nuestras fronteras</span></h1>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="../images/Mapa Venezuela.png" alt="mapas de Venezuela">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-center">
+                    <span class="col-lg-12 col-md-12 col-sm-12" id="textCuriosidades">Curiosidades de nuestro País</span>
                 </div>
             </div>
         </section>
@@ -73,30 +78,25 @@
      
         <section class="container">
             <div class="row text-center">
-                <div class=" col-lg-8 col-md-8 col-sm-12">
-                    <img class="img-fluid" id="imgCielo" src="../images/bloque-cubo-madera-concepto-servicio-al-cliente-contacto-comercial-que-imprime-direccion-correo-electronico-mensaje-telefono-carta-pantalla.jpg" alt="iconos contacto">
-                </div>
-                <div class=" col-lg-4 col-md-4 col-sm-12">
+                <div class=" col-lg-6 col-md-6 col-sm-12">
                     <h2 class="h2Nosotros">¡Hablemos!</h2>
                     <p id="mision">Te invitamos a que hables con nosotros y compartas tus ideas, preguntas y sugerencias. Valoramos tu opinión y queremos escucharte. Ya sea que desees proporcionar comentarios sobre nuestros videos informativos, colaborar en proyectos futuros o simplemente tener una conversación, nos encantaría conectarnos contigo</p>
             </div>
-        </section>
-        <section class="container" id="containerPico">
-            <div class="row">
-                    <form class="col-sm-12 offset-lg-3 col-lg-6">
-                        <div class="mb-3">
-                        <form action="enviar.php" method="POST">
-                            <label  for="nombre"></label>
-                            <input class="inputContacto" type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required><br>
-                        
-                            <label  for="email"></label>
-                            <input class="inputContacto" type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br>
-                        
-                            <label for="mensaje"></label><br>
-                            <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="4" required></textarea><br>
-                        
-                            <input id="botonContacto" class="btn btn-outline-secondary type="submit" value="Enviar">
-                    </form>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <form>
+                    <div class="mb-3">
+                    <form action="enviar.php" method="POST">
+                        <label  for="nombre"></label>
+                        <input class="inputContacto" type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required><br>
+                    
+                        <label  for="email"></label>
+                        <input class="inputContacto" type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br>
+                    
+                        <label for="mensaje"></label><br>
+                        <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="4" required></textarea><br>
+                    
+                        <input id="botonContacto" class="btn btn-outline-secondary type="submit" value="Enviar">
+                </form>
             </div>
         </section>
       

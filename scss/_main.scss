@@ -3,6 +3,12 @@
 #cajaPrincipal{
     margin-bottom: 200px;
     margin-top: 200px;
+    letter-spacing:2px;
+}
+
+#textCuriosidades{
+    text-align: center;
+    margin-top: 100px;
 }
 
 /*TERCERA SECCIÓN*/
@@ -16,8 +22,8 @@
 
 /*Card Nosotros*/
 .cardNosotros{
-    width: 450px;
-    height:450px;
+    width: 100%;
+    height:100%;
     border-radius:15px;
     background-color: #101B3A;
     text-align: center;
@@ -27,15 +33,13 @@
     text-align:justify;
 }
 
+
+
 /*Card topicos*/
 .lineas{
     color: $purple-form;
 }
-.h3Lineas{
-    color:$purple-form;
-  text-align: center;
 
-}
 
 .iconosVarios{
 height: 30px;
@@ -43,11 +47,6 @@ text-align: justify;
 margin-top: 15px
 }
 
-hr {
-height: 3px;
-background-color: $purplelight-brand;
-width: 100%;
-}
 
 .topicos{
 justify-self:center;
@@ -83,19 +82,8 @@ justify-self:center;
 
 /*Arreglos pagina Equipo*/
 
-/*.imagenEquipo{
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 25px;
-        img{
-        height: 80px;
-        border-radius: 100px 100px 100px 100px;
-        border: 3px solid #C7FF5A;
-        border-bottom: 2px solid #C7FF5A;
-        }
-}*/
 
-
+/*Secciones de equipo*/
 
 .contactoDescripcion{
     margin-top: 100px;
@@ -109,23 +97,35 @@ justify-self:center;
 
 /*Pagina Unirme*/
 
-#botonColabora img{
-    height: 20px;
+#botonColabora {
+    border-radius: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+        img{
+            height: 20px;
+        }
 }
+
+
 
 #fondoColabora{
     background-color:$green-brand;
     color:$primary-background;
     text-align: justify;
-    border-radius: 40px 0 0 20px;
+    border-radius: 40px 40px 40px 40px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 100px;
 }
-#botonColabora{
-    border-radius: 24px;
-    text-align: center
-}
+
 
 #h3Colabora{
     text-align: center;
+}
+#testimonios{
+    text-align: center;
+    margin-bottom: 50px;
+    color:  $yellow-brand;
 }
 
 /*Pagina contacto*/
@@ -146,7 +146,10 @@ justify-self:center;
     height: 100%;
     background-color: transparent;
     padding-top: 10px;
-    
+    font-size: small;
+    text-align: start;
+    padding-left: 10px;
+    letter-spacing: 1px;
 }
 
 #botonContacto{
@@ -154,6 +157,18 @@ justify-self:center;
     margin-top: 10px;
     border-radius: 24px;
 }
-#nombre #email{
-    text-align: center;
+#nombre {
+    text-align: start;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+#email {
+    text-align: start;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: small;
+    letter-spacing: 1px;
 }

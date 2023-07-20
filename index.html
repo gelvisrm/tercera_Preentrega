@@ -63,32 +63,54 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="./images/ennuestropais.png" alt="logo bandera">
                     <br>
-                    <img src="./images/lema.png" alt="lema pagina">
+                    <h1 id="tituloPrincipal">Descubriendo el mundo dentro de <span class="resaltartext">nuestras fronteras</span></h1>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="./images/Mapa Venezuela.png" alt="mapas de Venezuela">
                 </div>
             </div>
+            <div class="container">
+                <div class="row text-center">
+                    <span class="col-lg-12 col-md-12 col-sm-12" id="textCuriosidades">Curiosidades de nuestro País</span>
+                </div>
+            </div>
         </section>
         <!--SEGUNDA SECCIÓN-->
         <section>
-            <div id="carouselExample" class="carousel slide" id="carouselSize">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="./images/carousel1.jpg" class="d-block w-100" alt="Paisaje de Venezuela">
+                    <img src="./images/carousel1.jpg" class="d-block w-100" alt="Salto angel venezuela">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="textCarousel">Salto Angel</h5>
+                        <p class="textCarousel">La cascada más alta del mundo, con una altura de 979 metros.</p>
+                    </div>
                     </div>
                     <div class="carousel-item">
-                    <img src="./images/carousel2.jpg" class="d-block w-100" alt="Paisaje de Venezuela">
+                    <img src="./images/carousel2.jpg" class="d-block w-100" alt="Telesferico de Merida Venezuela">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="textCarousel" >Teleférico de Mérida</h5>
+                        <p class="textCarousel">Uno de los Teleféricos más largos del mundo con 12,5 km de distancia.</p>
+                    </div>
                     </div>
                     <div class="carousel-item">
-                    <img src="./images/carousel3.jpg" class="d-block w-100" alt="Paisaje de Venezuela">
+                    <img src="./images/carousel3.jpg" class="d-block w-100" alt="Pueblo andino">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="textCarousel">Pueblos andinos</h5>
+                        <p class="textCarousel">Una de las regiones más lindas del país</p>
+                    </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
