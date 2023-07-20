@@ -6,7 +6,13 @@
   padding: 0;
 }
 
-/*VARIABLES*/ /* Ingreso de font*/
+/*VARIABLES*/
+.center, #testimonios, #h3Colabora, #botonColabora, .contactoDescripcion, #h2Equipo, .cardNosotros {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Ingreso de font*/
 body {
   font-family: "Rubik", sans-serif;
 }
@@ -83,11 +89,6 @@ header nav ul li a {
   letter-spacing: 2px;
 }
 
-#textCuriosidades {
-  text-align: center;
-  margin-top: 100px;
-}
-
 /*TERCERA SECCIÓN*/
 #terceraCaja {
   margin-top: 100px;
@@ -101,8 +102,7 @@ header nav ul li a {
   width: 100%;
   height: 100%;
   border-radius: 15px;
-  background-color: #101B3A;
-  text-align: center;
+  background-color: #211F41;
 }
 
 #mision {
@@ -118,10 +118,6 @@ header nav ul li a {
   height: 30px;
   text-align: justify;
   margin-top: 15px;
-}
-
-.topicos {
-  justify-self: center;
 }
 
 /*Seccion Video*/
@@ -151,7 +147,6 @@ header nav ul li a {
 /*Secciones de equipo*/
 .contactoDescripcion {
   margin-top: 100px;
-  justify-content: center;
 }
 
 #textoEquipo {
@@ -161,7 +156,6 @@ header nav ul li a {
 /*Pagina Unirme*/
 #botonColabora {
   border-radius: 24px;
-  text-align: center;
   margin-bottom: 10px;
 }
 #botonColabora img {
@@ -178,12 +172,7 @@ header nav ul li a {
   margin-bottom: 100px;
 }
 
-#h3Colabora {
-  text-align: center;
-}
-
 #testimonios {
-  text-align: center;
   margin-bottom: 50px;
   color: #FF9500;
 }
@@ -258,6 +247,25 @@ header nav ul li a {
 .banderaFooter {
   margin-top: 50px;
   text-align: right;
+}
+
+@media screen and (min-width: 992px) {
+  .card .card-body {
+    background-color: #211F41;
+    color: white;
+  }
+}
+@media screen and (max-width: 991px) {
+  .card .card-body {
+    background-color: #211F41;
+    color: white;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card .card-body {
+    background-color: #211F41;
+    color: white;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
